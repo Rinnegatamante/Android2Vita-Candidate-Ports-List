@@ -9,6 +9,7 @@ assignees: ''
 
 Name:
 Version: 
+Google Play Link:
 
 Has ARMv7 Build:
 GLES version:
