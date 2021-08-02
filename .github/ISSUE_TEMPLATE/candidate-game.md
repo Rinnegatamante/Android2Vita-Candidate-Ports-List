@@ -11,6 +11,9 @@ Name:
 Version: 
 Google Play Link:
 
+Comments:
+
 Has ARMv7 Build:
+Has ARMv6 Build:
 GLES version:
 Online Features:
