@@ -10,10 +10,12 @@ assignees: ''
 Name:
 Version: 
 Google Play Link:
+Amazon App Store Link:
+Download link:
 
 Comments:
 
 Has ARMv7 Build:
 Has ARMv6 Build:
-GLES version:
+GLES Version:
 Online Features:
