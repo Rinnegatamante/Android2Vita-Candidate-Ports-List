@@ -88,6 +88,7 @@ body:
       options:
         - Amazon App Store
         - Google Play Store
+        - Humble Store
         - Delisted
     validations:
       required: true
@@ -95,8 +96,8 @@ body:
     id: storelink
     attributes:
       label: Store Link
-      description: "Amazon or Google Play store link, if available"
-      placeholder: link
+      description: "Amazon, Google Play or Humble store link. If available"
+      placeholder: link URL
     validations:
       required: false
   - type: textarea
