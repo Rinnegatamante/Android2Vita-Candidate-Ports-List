@@ -13,3 +13,11 @@ body:
       options:
         - label: I have read the README.md and understand the submission rules
           required: true
+  - type: checkboxes
+    id: nounity
+    attributes:
+      label: Unity Games
+      description: The README.md states that games made in Unity are not suitable candidates
+      options:
+        - label: I have checked this game is not made in Unity and does not contain a libunity.so
+          required: true
