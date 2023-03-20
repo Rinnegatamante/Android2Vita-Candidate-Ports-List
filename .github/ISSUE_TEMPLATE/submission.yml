@@ -52,7 +52,7 @@ body:
     id: armversion
     attributes:
       label: ARM Build Version
-      description: If both bin folders are present, put ARMv7
+      description: If both are present in the apk bin folder, put ARMv7
       options:
         - ARMv6
         - ARMv7
