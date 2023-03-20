@@ -39,8 +39,8 @@ body:
   - type: dropdown
     id: store
     attributes:
-      label: ARM Build Version
-      description: If both bin folders are present, put ARMv7
+      label: Listed or Delisted
+      description: Is the game avaialble for purchase or delisted?
       options:
         - Amazon App Store
         - Google Play Store
