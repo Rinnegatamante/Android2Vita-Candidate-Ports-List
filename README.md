@@ -12,6 +12,5 @@ A list of candidate Android games portable to Vita. ( https://android.rinnegatam
 ❌ ARMv8 executable\
 ❌ Unity games\
 ❌ Java games\
-❌ Kotlin games\
-
+❌ Kotlin games
 ## Requirements Summary
