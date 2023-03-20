@@ -34,3 +34,6 @@ A list of candidate Android games portable to Vita. ( https://android.rinnegatam
 - If only libfmod.so is present, the game CAN be ported with sound. 
 - If other FMOD files are there, the game CANNOT be ported with sound.  
 ## How Do I Check Unity, Java and Kotlin Usage?
+- Extract the APK using a archive extracter (7ZIP, WinZip)
+- Open the "lib" folder 
+- Open either the "armeabi" or "armeabi-v7a" folder. 
