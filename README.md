@@ -3,7 +3,7 @@ A list of candidate Android games portable to Vita. ( https://android.rinnegatam
 
 # Android Port Requirements for Vita SO Loader 
 
-## Requirements Summary
+### Requirements Summary
 ✔️ ARMv6 OR ARMv7 exexutable\
 ✔️ OpenGL: GLES 1 or GLES 2\
 ✔️ FMOD: libfmod.so\
@@ -13,4 +13,4 @@ A list of candidate Android games portable to Vita. ( https://android.rinnegatam
 ❌ Unity games\
 ❌ Java games\
 ❌ Kotlin games
-## Requirements Summary
+### Requirements Summary
