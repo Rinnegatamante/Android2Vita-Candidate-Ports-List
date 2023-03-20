@@ -7,7 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "### WARNING! Missue of this form will result in a ban"
+      value: "### WARNING! Misuse of this form will result in a ban"
   - type: checkboxes
     id: rules
     attributes:
