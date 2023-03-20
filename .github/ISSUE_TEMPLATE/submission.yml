@@ -43,3 +43,13 @@ body:
       placeholder: Amazon App OR Google Play OR Delisted
     validations:
       required: true
+  - type: dropdown
+    id: armversion
+    attributes:
+      label: ARM Build Version
+      description: If both bin folders are present, put ARMv7
+      options:
+        - ARMv6
+        - ARMv7
+    validations:
+      required: true
