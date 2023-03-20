@@ -33,6 +33,7 @@ body:
     attributes:
       label: Game Version
       description: Version number of the Android game
+      placeholder: "e.g. 1.0.0"
     validations:
       required: true
   - type: dropdown
@@ -50,7 +51,7 @@ body:
     id: storelink
     attributes:
       label: Store Link
-      description: Amazon or Google Play store link
+      description: "Amazon or Google Play store link, if available"
       placeholder: link
     validations:
       required: false
