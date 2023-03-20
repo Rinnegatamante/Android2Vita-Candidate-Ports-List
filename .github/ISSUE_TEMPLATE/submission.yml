@@ -35,14 +35,25 @@ body:
       description: Version number of the Android game
     validations:
       required: true
+- type: dropdown
+  id: store
+  attributes:
+    label: ARM Build Version
+    description: If both bin folders are present, put ARMv7
+    options:
+      - Amazon App Store
+      - Google Play Store
+      - Delisted
+  validations:
+    required: true
   - type: input
-    id: store
+    id: storelink
     attributes:
       label: Store Link
-      description: "Please enter an Amazon App Store or Google Play link to the game. If this is not possible, write: delisted"
-      placeholder: Amazon App Link OR Google Play Link OR Delisted
+      description: If the game is on the Amazon App Store or Google Play Store, please enter the link
+      placeholder: link
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: armversion
     attributes:
@@ -59,9 +70,9 @@ body:
       label: OpenGL Build Version
       description: What version of OpenGL does the game use?
       options:
-        - GLES1
-        - GLES2
-        - GLES3+
+        - GLES 1
+        - GLES 2
+        - GLES 3+
     validations:
       required: true
   - type: textarea
