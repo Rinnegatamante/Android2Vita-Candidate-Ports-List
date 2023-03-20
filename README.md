@@ -9,10 +9,10 @@ A list of candidate Android games portable to Vita. ( https://android.rinnegatam
 ✔️ FMOD: libfmod.so\
 🔶 OpenGL: GLES 3+\
 🔶 FMOD: libfmodevent.so, libfmodex.so, libfmodstudio.so\
-❌ ARMv8 executable\
+❌ ARMv8 executable only\
+❌ Kotlin only\
 ❌ Unity games\
 ❌ Java games\
-❌ Kotlin games
 ## How do I Check ARM Executable?
 ## How Do I Check OpenGL Version?
 ## How Do I Check FMOD Usage?
