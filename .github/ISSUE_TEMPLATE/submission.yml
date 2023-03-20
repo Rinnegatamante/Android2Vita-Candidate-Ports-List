@@ -70,12 +70,14 @@ body:
     id: hasfmod
     attributes:
       label: "Does the game use FMOD?"
+      description: "Select either No FMOD, or all FMOD so that apply"
       multiple: true
       options:
         - No FMOD
         - libfmod.so
         - libfmodevent.so
         - libfmodex.so
+        - libfmodstudio.so
     validations:
       required: true
   - type: dropdown
