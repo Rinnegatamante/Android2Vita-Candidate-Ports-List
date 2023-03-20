@@ -52,7 +52,7 @@ body:
     id: armversion
     attributes:
       label: ARM Build Version
-      description: If both are present in the apk bin folder, put ARMv7
+      description: If both are present in the apk lib folder, put ARMv7
       options:
         - ARMv6
         - ARMv7
@@ -73,7 +73,7 @@ body:
     id: hasfmod
     attributes:
       label: "FMOD Usage"
-      description: "Select either No FMOD, or all FMOD.so files in the apk bin folder"
+      description: "Select either No FMOD, or all FMOD.so files in the apk armeabi OR armeabi-v7a  folder"
       multiple: true
       options:
         - No FMOD
