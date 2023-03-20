@@ -34,6 +34,7 @@ body:
     attributes:
       label: Game Name
       description: Name of the Android game
+      placeholder: "example: GTA: San Andreas"
     validations:
       required: true
   - type: input
@@ -41,7 +42,7 @@ body:
     attributes:
       label: Game Version
       description: Version number of the Android game
-      placeholder: "e.g. 1.0.0"
+      placeholder: "example: 1.0.1"
     validations:
       required: true
   - type: dropdown
