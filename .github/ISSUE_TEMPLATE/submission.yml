@@ -16,7 +16,7 @@ body:
   - type: checkboxes
     id: nounity
     attributes:
-      label: Unity Games
+      label: No Unity Games
       description: The README.md states that games made in Unity are not suitable candidates
       options:
         - label: I have checked this game is not made in Unity and does not contain a libunity.so
@@ -24,7 +24,7 @@ body:
   - type: checkboxes
     id: nojava
     attributes:
-      label: Java Games
+      label: No Java Games
       description: The README.md states that games made in Java are not suitable candidates
       options:
         - label: I have checked this game is not made in Java and does not contain a libgdx.so
