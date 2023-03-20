@@ -1,62 +1,71 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Port Submission
+description: Submit a candidate Android port for the PS Vita SO loader. 
+title: "[Android Game Name]: "
+labels: ["Submission"]
 assignees:
-  - octocat
+  - CatoTheYounger
 body:
-  - type: markdown
+  - type: checkboxes
+    id: rules
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      label: Submission Rules
+      description: By submitting this candidate, you have read the README.md and understand the submission rules. 
+      options:
+        - label: I have read the README.md and understand the submission rules. 
+          required: true
+  - type: checkboxes
+    id: nounity
+    attributes:
+      label: Unity Games
+      description: The README.md states that games made in Unity are not suitable candidates. 
+      options:
+        - label: I have checked this game is not made in Unity and does not contain a libunity.so.
+          required: true
   - type: input
-    id: contact
+    id: gamename
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Game Name
+      description: "Name of the Android game."
     validations:
-      required: false
-  - type: textarea
-    id: what-happened
+      required: true
+  - type: input
+    id: gameversion
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Game Version
+      description: "Version number of the Android game."
+    validations:
+      required: true
+  - type: input
+    id: store
+    attributes:
+      label: Store Link
+      description: "Please enter an Amazon App Store or Google Play link to the game. If this is not possible, write: delisted"
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: armversion
     attributes:
-      label: Version
+      label: ARM Build Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - ARMv6
+        - ARMv7
     validations:
       required: true
   - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+  id: armversion
+  attributes:
+    label: ARM Build Version
+    description: What version of our software are you running?
+    options:
+      - GLES1
+      - GLES2
+      - GLES3+
+  validations:
+    required: true
   - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+  id: comment
+  attributes:
+    label: Relevant Information
+    description: "comment box."
+    
