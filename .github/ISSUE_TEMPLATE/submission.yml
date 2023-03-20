@@ -77,6 +77,18 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: hasfmod
+    attributes:
+      label: "Does the game use FMOD?"
+      multiple: true
+      options:
+        - No FMOD
+        - libfmod.so
+        - libfmodevent.so
+        - libfmodex.so
+    validations:
+      required: true
+  - type: dropdown
     id: store
     attributes:
       label: Listed or Delisted
