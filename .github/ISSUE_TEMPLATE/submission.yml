@@ -40,5 +40,6 @@ body:
     attributes:
       label: Store Link
       description: "Please enter an Amazon App Store or Google Play link to the game. If this is not possible, write: delisted"
+      placeholder: Amazon App OR Google Play OR Delisted
     validations:
       required: true
