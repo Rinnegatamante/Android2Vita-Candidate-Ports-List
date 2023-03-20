@@ -72,7 +72,7 @@ body:
   - type: dropdown
     id: hasfmod
     attributes:
-      label: "Does the game use FMOD?"
+      label: "FMOD Usage"
       description: "Select either No FMOD, or all FMOD.so files in the apk bin folder"
       multiple: true
       options:
