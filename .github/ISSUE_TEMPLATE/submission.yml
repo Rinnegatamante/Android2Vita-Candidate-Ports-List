@@ -1,6 +1,6 @@
 name: Candidate Submission
 description: Submit a candidate Android port for the PS Vita SO loader
-title: "[Android Game Name]: "
+title: "Enter Game Name Here"
 labels: ["submission"]
 assignees:
   - CatoTheYounger
@@ -68,7 +68,7 @@ body:
   - type: dropdown
     id: glversion
     attributes:
-      label: OpenGL Build Version
+      label: OpenGL Version
       description: What version of OpenGL does the game use?
       options:
         - GLES 1
