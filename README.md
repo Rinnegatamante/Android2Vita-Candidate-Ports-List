@@ -14,6 +14,22 @@ A list of candidate Android games portable to Vita. ( https://android.rinnegatam
 ❌ Unity games\
 ❌ Java games\
 ## How do I Check ARM Executable?
+- Extract the APK using a archive extracter (7ZIP, WinZip)
+- Open the "lib" folder 
+- If an "armeabi" folder is present, the game has an ARMv6 executable. 
+- If an "armeabi-v7a" folder is present, the game has an ARMv7 executable. 
+- It's possible for both folders to be present. 
 ## How Do I Check OpenGL Version?
+- ???
 ## How Do I Check FMOD Usage?
+- Extract the APK using a archive extracter (7ZIP, WinZip)
+- Open the "lib" folder 
+- Open either the "armeabi" or "armeabi-v7a" folder. 
+- Check for the following files: 
+  - libfmod.so
+  - libfmodevent.so
+  - libfmodex.so
+  - libfmodstudio.so
+- If only libfmod.so is present, the game CAN be ported with sound. 
+- If other FMOD files are there, the game CANNOT be ported with sound.  
 ## How Do I Check Unity, Java and Kotlin Usage?
