@@ -6,16 +6,10 @@ assignees:
   - CatoTheYounger
 body:
   - type: checkboxes
-  id: rules
-  attributes:
-    label: Submission Rules
-    description: By submitting this candidate, you have read the README.md and understand the submission rules. 
-    options:
-      - label: I have read the README.md and understand the submission rules. 
-    validations:
-      required: true
-  - type: textarea
-  id: comment
-  attributes:
-    label: Relevant Information
-    description: "comment box."
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
