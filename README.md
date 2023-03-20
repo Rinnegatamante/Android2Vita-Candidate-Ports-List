@@ -19,6 +19,7 @@ A list of candidate Android games portable to Vita. ( https://android.rinnegatam
 - If an "armeabi" folder is present, the game has an ARMv6 executable. 
 - If an "armeabi-v7a" folder is present, the game has an ARMv7 executable. 
 - It's possible for both folders to be present. 
+- If only the "arm64-v8a" is present, the game CANNOT be ported. 
 ## How Do I Check OpenGL Version?
 - ???
 ## How Do I Check FMOD Usage?
