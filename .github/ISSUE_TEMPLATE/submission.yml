@@ -67,6 +67,16 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: hasfmod
+    attributes:
+      label: FMOD
+      description: "Does the use FMOD? (has libfmod.so OR libfmodevent.so OR libfmodex.so)"
+      options:
+        - No
+        - Yes
+    validations:
+      required: true
+  - type: dropdown
     id: store
     attributes:
       label: Listed or Delisted
