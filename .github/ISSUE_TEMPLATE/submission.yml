@@ -1,7 +1,7 @@
 name: Port Submission
-description: Submit a candidate Android port for the PS Vita SO loader. 
+description: Submit a candidate Android port for the PS Vita SO loader
 title: "[Android Game Name]: "
-labels: ["Submission"]
+labels: ["bug", "triage"]
 assignees:
   - CatoTheYounger
 body:
