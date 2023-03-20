@@ -40,7 +40,7 @@ body:
     attributes:
       label: Store Link
       description: "Please enter an Amazon App Store or Google Play link to the game. If this is not possible, write: delisted"
-      placeholder: Amazon App OR Google Play OR Delisted
+      placeholder: Amazon App Link OR Google Play Link OR Delisted
     validations:
       required: true
   - type: dropdown
@@ -53,3 +53,19 @@ body:
         - ARMv7
     validations:
       required: true
+  - type: dropdown
+    id: glversion
+    attributes:
+      label: OpenGL Build Version
+      description: What version of OpenGL does the game use?
+      options:
+        - GLES1
+        - GLES2
+        - GLES3+
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Comment Box
+      description: Write any other relecant information 
