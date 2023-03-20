@@ -35,3 +35,10 @@ body:
       description: Version number of the Android game
     validations:
       required: true
+  - type: input
+    id: store
+    attributes:
+      label: Store Link
+      description: Please enter an Amazon App Store or Google Play link to the game. If this is not possible, write: delisted
+    validations:
+      required: true
