@@ -5,6 +5,9 @@ labels: ["submission"]
 assignees:
   - CatoTheYounger
 body:
+  - type: markdown
+    attributes:
+      value: "## WARNING!"
   - type: checkboxes
     id: rules
     attributes:
@@ -96,7 +99,7 @@ body:
     id: storelink
     attributes:
       label: Store Link
-      description: "Amazon, Google Play or Humble store link. If available"
+      description: "Amazon, Google Play or Humble store link. Leave blank if Delisted"
       placeholder: link URL
     validations:
       required: false
