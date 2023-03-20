@@ -19,7 +19,7 @@ body:
       label: No Unity Games
       description: The README.md states that games made in Unity are not suitable candidates
       options:
-        - label: I have checked this game is not made in Unity and does not contain a libunity.so
+        - label: This game is not made in Unity and does not contain a libunity.so
           required: true
   - type: checkboxes
     id: nojava
@@ -27,7 +27,7 @@ body:
       label: No Java Games
       description: The README.md states that games made in Java are not suitable candidates
       options:
-        - label: I have checked this game is not made in Java and does not contain a libgdx.so
+        - label: This game is not made in Java and does not contain a libgdx.so
           required: true
   - type: input
     id: gamename
@@ -45,25 +45,6 @@ body:
       placeholder: "example: 1.0.1"
     validations:
       required: true
-  - type: dropdown
-    id: store
-    attributes:
-      label: Listed or Delisted
-      description: Is the game avaialble for purchase or delisted?
-      options:
-        - Amazon App Store
-        - Google Play Store
-        - Delisted
-    validations:
-      required: true
-  - type: input
-    id: storelink
-    attributes:
-      label: Store Link
-      description: "Amazon or Google Play store link, if available"
-      placeholder: link
-    validations:
-      required: false
   - type: dropdown
     id: armversion
     attributes:
@@ -85,6 +66,25 @@ body:
         - GLES 3+
     validations:
       required: true
+  - type: dropdown
+    id: store
+    attributes:
+      label: Listed or Delisted
+      description: Is the game avaialble for purchase or delisted?
+      options:
+        - Amazon App Store
+        - Google Play Store
+        - Delisted
+    validations:
+      required: true
+  - type: input
+    id: storelink
+    attributes:
+      label: Store Link
+      description: "Amazon or Google Play store link, if available"
+      placeholder: link
+    validations:
+      required: false
   - type: textarea
     id: extra
     attributes:
