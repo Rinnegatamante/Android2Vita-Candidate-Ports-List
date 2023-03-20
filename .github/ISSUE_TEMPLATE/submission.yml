@@ -21,11 +21,17 @@ body:
       options:
         - label: I have checked this game is not made in Unity and does not contain a libunity.so
           required: true
-
   - type: input
     id: gamename
     attributes:
       label: Game Name
       description: Name of the Android game
+    validations:
+      required: true
+  - type: input
+    id: gameversion
+    attributes:
+      label: Game Version
+      description: Version number of the Android game
     validations:
       required: true
