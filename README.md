@@ -12,7 +12,7 @@ A list of candidate Android games portable to Vita. ( https://android.rinnegatam
 ❌ ARMv8 executable only\
 ❌ Kotlin only\
 ❌ Unity games\
-❌ Java games\
+❌ Java games
 ## How do I Check ARM Executable?
 - Extract the APK using a archive extracter (7-ZIP, WinZip)
 - Open the "lib" folder 
