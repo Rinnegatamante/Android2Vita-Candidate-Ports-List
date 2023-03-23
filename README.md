@@ -5,13 +5,13 @@
 ## Requirements Summary
 ✔️ ARMv6 OR ARMv7 exexutable\
 ✔️ OpenGL: GLES 1 or GLES 2\
-✔️ FMOD: No FMOD Usage OR libfmod.so\
+✔️ FMOD: No FMOD Usage OR libfmod.so only\
 🔶 OpenGL: GLES 3+\
 🔶 FMOD: libfmodevent.so, libfmodex.so, libfmodstudio.so\
 ❌ ARMv8 executable only\
 ❌ Kotlin only\
-❌ Unity games\
-❌ Java games
+❌ Unity games (libunity.so)\
+❌ Java games (libgdx.so)
 ## How do I Check ARM Executable?
 - Extract the APK using a archive extracter (7-ZIP, WinZip)
 - Open the "lib" folder 
