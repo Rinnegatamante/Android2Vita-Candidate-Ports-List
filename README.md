@@ -3,7 +3,7 @@
 - Please read this README.md in full and check the candidate list, before submitting a new port candidate. 
 # Android Port Requirements for Vita SO Loader 
 ## Requirements Summary
-✔️ ARMv6 OR ARMv7 exexutable\
+✔️ ARMv6 OR ARMv7 executable\
 ✔️ OpenGL: GLES 1 or GLES 2\
 ✔️ FMOD: No FMOD Usage OR libfmod.so only\
 🔶 OpenGL: GLES 3+\
