@@ -20,8 +20,8 @@
 - It's possible for both folders to be present. 
 - If only the "arm64-v8a" is present, the game CANNOT be ported. 
 ## How Do I Check OpenGL Version?
-- Option 1: open the game executable (inside "armeabi" or "armeabi-v7a" folder) in ghidra. The analysis summary will inform you which gles versions are linked. https://ghidra-sre.org/.
-- Option 2: use apktool to decrypt the "AndroidManifest.xml" inside the APK. Read the gles version under "glesVersion: " parameter. https://ibotpeaches.github.io/Apktool/ 
+- Option 1: open the game executable (inside "armeabi" or "armeabi-v7a" folder) in ghidra. The analysis summary will inform you which OpenGL versions are linked. https://ghidra-sre.org/.
+- Option 2: use apktool to decrypt the "AndroidManifest.xml" inside the APK. Read the OpenGL version under "glesVersion: " parameter. https://ibotpeaches.github.io/Apktool/ 
 ## How Do I Check FMOD Usage?
 - Extract the APK using a archive extracter (7-ZIP, WinZip)
 - Open the "lib" folder 
