@@ -1,0 +1,110 @@
+name: Candidate Submission
+description: Submit a candidate Android port for the PS Vita SO loader
+title: "[Enter Game Name Here]"
+labels: ["submission"]
+assignees:
+  - CatoTheYounger
+body:
+  - type: markdown
+    attributes:
+      value: "### WARNING! Misuse of this form will result in a ban"
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Submission Rules
+      description: By submitting this candidate, you have read the README.md and understand the submission rules
+      options:
+        - label: I have read the README.md and understand the submission rules
+          required: true
+  - type: checkboxes
+    id: nounity
+    attributes:
+      label: No Unity Games
+      description: The README.md states that games made in Unity are not suitable candidates
+      options:
+        - label: This game is not made in Unity and does not contain a libunity.so
+          required: true
+  - type: checkboxes
+    id: nojava
+    attributes:
+      label: No Java Games
+      description: The README.md states that games made in Java are not suitable candidates
+      options:
+        - label: This game is not made in Java and does not contain a libgdx.so
+          required: true
+  - type: input
+    id: gamename
+    attributes:
+      label: Game Name
+      description: Name of the Android game
+      placeholder: "example: GTA: San Andreas"
+    validations:
+      required: true
+  - type: input
+    id: gameversion
+    attributes:
+      label: Game Version
+      description: Version number of the Android game
+      placeholder: "example: 1.0.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: armversion
+    attributes:
+      label: ARM Build Version
+      description: If both are present in the apk lib folder, put ARMv7
+      options:
+        - ARMv6
+        - ARMv7
+    validations:
+      required: true
+  - type: dropdown
+    id: glversion
+    attributes:
+      label: OpenGL Version
+      description: What version of OpenGL does the game use?
+      options:
+        - GLES 1
+        - GLES 2
+        - GLES 3+
+    validations:
+      required: true
+  - type: dropdown
+    id: hasfmod
+    attributes:
+      label: "FMOD Usage"
+      description: "Select either No FMOD, or all FMOD.so files in the apk armeabi OR armeabi-v7a  folder"
+      multiple: true
+      options:
+        - No FMOD
+        - libfmod.so
+        - libfmodevent.so
+        - libfmodex.so
+        - libfmodstudio.so
+    validations:
+      required: true
+  - type: dropdown
+    id: store
+    attributes:
+      label: Listed or Delisted
+      description: Is the game avaialble for purchase or delisted?
+      options:
+        - Amazon App Store
+        - Google Play Store
+        - Humble Store
+        - Delisted
+    validations:
+      required: true
+  - type: input
+    id: storelink
+    attributes:
+      label: Store Link
+      description: "Amazon, Google Play or Humble store link. Leave blank if Delisted"
+      placeholder: link URL
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Comment Box
+      description: For additional information 
