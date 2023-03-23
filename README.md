@@ -1,6 +1,6 @@
 # Android2Vita-Candidate-Ports-List
 - A list of candidate Android games portable to Vita. ( https://android.rinnegatamante.it )
-- Please read this README.md in full and check the candidate list, before submitting a new port candidate. 
+- Please read this README.md in full and check the candidate list before submitting a new port candidate. 
 # Android Port Requirements for Vita SO Loader 
 ## Requirements Summary
 ✔️ ARMv6 or ARMv7 executable\
@@ -20,7 +20,8 @@
 - It's possible for both folders to be present. 
 - If only the "arm64-v8a" is present, the game CANNOT be ported. 
 ## How Do I Check OpenGL Version?
-- ???
+- Option 1: open the game executable (so) in ghidra. The analysis summary will inform you which gles versions are linked. 
+- Option 2: use apktool to decrypt the `AndroidManifest.xml` inside the apk. Read the gles version under `glesVersion` parameter. 
 ## How Do I Check FMOD Usage?
 - Extract the APK using a archive extracter (7-ZIP, WinZip)
 - Open the "lib" folder 
