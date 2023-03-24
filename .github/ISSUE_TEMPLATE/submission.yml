@@ -102,7 +102,7 @@ body:
     attributes:
       label: Store Link
       description: "Amazon, Google Play or Humble store link. Leave blank if Delisted"
-      placeholder: link URL
+      placeholder: link URL or leave blank if delisted
     validations:
       required: false
   - type: textarea
