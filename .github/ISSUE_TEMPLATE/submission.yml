@@ -1,9 +1,9 @@
 name: Candidate Submission
 description: Submit a candidate Android port for the PS Vita SO loader
-title: "[Enter Game Name Here]"
+title: "Enter Game Name Here"
 labels: ["Submission"]
-assignees:
-  - CatoTheYounger
+# assignees:
+#   - CatoTheYounger97
 body:
   - type: markdown
     attributes:
@@ -17,20 +17,22 @@ body:
         - label: I have read the README.md and understand the submission rules
           required: true
   - type: checkboxes
-    id: nounity
+    id: nounityorjava
     attributes:
-      label: No Unity Games
-      description: The README.md states that games made in Unity are not suitable candidates
+      label: No Unity or Java Games
+      # description: The README.md states that games made in Unity and Java are not suitable candidates
       options:
-        - label: This game is not made in Unity and does not contain a libunity.so
+        - label: This game is NOT made in Unity and does not contain a libunity.so
+          required: true
+        - label: This game is NOT made in Java and does not contain a libgdx.so
           required: true
   - type: checkboxes
-    id: nojava
+    id: noduplicate
     attributes:
-      label: No Java Games
-      description: The README.md states that games made in Java are not suitable candidates
+      label: No Duplicate Submissions
+      # description: The README.md states that games made in Java are not suitable candidates
       options:
-        - label: This game is not made in Java and does not contain a libgdx.so
+        - label: This game is NOT already in the Android2Vita candidate port list
           required: true
   - type: input
     id: gamename
