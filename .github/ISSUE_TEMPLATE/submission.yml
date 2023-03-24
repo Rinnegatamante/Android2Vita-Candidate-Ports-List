@@ -27,7 +27,7 @@ body:
   - type: checkboxes
     id: nojava
     attributes:
-      label:
+      label: java
       description: The README.md states that games made in Java are not suitable candidates
       options:
         - label: This game is not made in Java and does not contain a libgdx.so
