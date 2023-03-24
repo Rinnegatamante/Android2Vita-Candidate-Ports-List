@@ -2,8 +2,8 @@ name: Candidate Submission
 description: Submit a candidate Android port for the PS Vita SO loader
 title: "Enter Game Name Here"
 labels: ["Submission"]
-assignees:
-  - CatoTheYounger97
+# assignees:
+#   - CatoTheYounger97
 body:
   - type: markdown
     attributes:
