@@ -15,6 +15,7 @@
 ## How do I Check ARM Executable?
 - Extract the APK using an archive extracter (7-ZIP, WinZip).
 - Open the "lib" folder.
+- If no "lib" folder is present, the game CANNOT be ported.
 - If an "armeabi" folder is present, the game has an ARMv6 executable. 
 - If an "armeabi-v7a" folder is present, the game has an ARMv7 executable. 
 - It's possible for both folders to be present. 
