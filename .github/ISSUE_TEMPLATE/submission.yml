@@ -23,7 +23,6 @@ body:
       description: The README.md states that games made in Unity and Java are not suitable candidates
       options:
         - label: This game is NOT made in Unity and does not contain a libunity.so
-          description: test
           required: true
         - label: This game is NOT made in Java and does not contain a libgdx.so
           required: true
@@ -31,7 +30,7 @@ body:
     id: noduplicate
     attributes:
       label: No Duplicate Submissions
-      description: The README.md states that games made in Java are not suitable candidates
+      # description: The README.md states that games made in Java are not suitable candidates
       options:
         - label: This game is NOT already in the Android2Vita candidate port list
           required: true
