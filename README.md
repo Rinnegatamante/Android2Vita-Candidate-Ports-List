@@ -1,8 +1,7 @@
 # Android2Vita-Candidate-Ports-List
 - A list of candidate Android games portable to Vita. ( https://android.rinnegatamante.it )
 - Please read this README.md in full and check the candidate list before submitting a new port candidate. 
-# Android Port Requirements for Vita SO Loader 
-## Requirements Summary
+## Android Port Requirements for Vita SO Loader
 ✔️ ARMv6 or ARMv7 executable\
 ✔️ OpenGL: GLES 1 or GLES 2\
 ✔️ FMOD: No FMOD Usage or libfmod.so only\
