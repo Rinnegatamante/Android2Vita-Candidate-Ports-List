@@ -4,9 +4,9 @@
 ## Android Port Requirements for Vita SO Loader
 ✔️ ARMv6 or ARMv7 executable\
 ✔️ OpenGL: GLES 1 or GLES 2\
-✔️ FMOD: No FMOD Usage or libfmod.so only\
+✔️ FMOD: No FMOD Usage, libfmod.so, libfmodstudio.so\
 🔶 OpenGL: GLES 3+\
-🔶 FMOD: libfmodevent.so, libfmodex.so, libfmodstudio.so\
+❌ FMOD: libfmodevent.so, libfmodex.so\
 ❌ ARMv8 executable only\
 ❌ Kotlin only\
 ❌ Unity games (libunity.so)\
@@ -37,7 +37,7 @@
   - libfmodevent.so
   - libfmodex.so
   - libfmodstudio.so
-- If only libfmod.so is present, the game CAN be ported with sound. 
+- If libfmod.so or libfmodstudio.so is present, the game CAN be ported with sound. 
 - If other FMOD files are there, the game CANNOT be ported with sound.  
 ## How Do I Check Unity, Java and Kotlin Usage?
 - Extract the APK using an archive extracter (7-ZIP, WinZip)
