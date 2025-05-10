@@ -1,5 +1,5 @@
 # Android2Vita-Candidate-Ports-List
-- A list of candidate Android games portable to Vita. ( https://android.rinnegatamante.it )
+- A list of candidate Android games portable to Vita. ( https://www.rinnegatamante.eu/android/ )
 - Please read this README.md in full and check the candidate list before submitting a new port candidate. 
 ## Android Port Requirements for Vita SO Loader
 ✔️ ARMv6 or ARMv7 executable\
